@@ -1,0 +1,311 @@
+{
+  "haccp": {
+    "title": "HACCP",
+    "subtitle": "Surveillez la conformité, les incidents et la documentation.",
+    "tabs": {
+      "dashboard": "Tableau de bord",
+      "logs": "Logs",
+      "nc": "Non-conformités",
+      "settings": "Paramètres"
+    },
+    "dashboardHeading": "Tableau de bord HACCP",
+    "logsHeading": "Logs",
+    "ncHeading": "Non-conformités",
+    "settingsHeading": "Paramètres",
+    "emptyState": "Contenu en préparation.",
+    "kpis": {
+      "compliance": "Conformité",
+      "openNc": "NC ouvertes",
+      "openNcDescription": "Plans d'action ouverts en attente de validation.",
+      "offlineSensors": "Capteurs hors ligne",
+      "offlineSensorsDescription": "Sondes nécessitant maintenance ou batterie."
+    },
+    "upcomingControls": {
+      "title": "Contrôles à venir",
+      "point": "Point de contrôle",
+      "threshold": "Seuil",
+      "due": "Échéance",
+      "action": "Mesurer"
+    },
+    "alerts": {
+      "title": "Alertes récentes",
+      "noAlerts": "Aucune alerte sur les dernières 24h.",
+      "nc": "Non-conformité",
+      "sensor": "Écart capteur"
+    },
+    "measure": {
+      "title": "Enregistrer une mesure",
+      "controlPoint": "Point de contrôle",
+      "value": "Valeur",
+      "note": "Note",
+      "photo": "Preuve photo",
+      "placeholderNote": "Ajouter une note (optionnel)",
+      "statusOk": "Dans les seuils",
+      "statusNc": "Hors seuils",
+      "cancel": "Annuler",
+      "save": "Enregistrer",
+      "upload": "Joindre une photo"
+    },
+    "logsPage": {
+      "filters": {
+        "title": "Filtres",
+        "dateFrom": "Du",
+        "dateTo": "Au",
+        "controlPoint": "Point de contrôle",
+        "allPoints": "Tous les points",
+        "mode": "Mode",
+        "modeAll": "Tous les modes",
+        "modeManual": "Manuel",
+        "modeIot": "IoT",
+        "reset": "Réinitialiser"
+      },
+      "table": {
+        "point": "Point de contrôle",
+        "value": "Valeur",
+        "unit": "Unité",
+        "timestamp": "Horodatage",
+        "operator": "Opérateur",
+        "status": "Statut",
+        "mode": "Mode",
+        "actions": "Actions",
+        "statusOk": "OK",
+        "statusNc": "NC"
+      },
+      "measureButton": "Mesurer"
+    },
+    "nc": {
+      "columns": {
+        "todo": "À faire",
+        "inProgress": "En cours",
+        "review": "Relecture",
+        "closed": "Clôturé"
+      },
+      "card": {
+        "type": "Type",
+        "severity": "Gravité",
+        "cause": "Cause racine",
+        "due": "Échéance",
+        "assignee": "Responsable",
+        "actionsCount": "{count} actions correctives"
+      },
+      "modal": {
+        "title": "Ouvrir une non-conformité",
+        "point": "Point de contrôle",
+        "description": "Description",
+        "severity": "Gravité",
+        "due": "Date d'échéance",
+        "assignee": "Responsable",
+        "cancel": "Annuler",
+        "submit": "Créer",
+        "severityLow": "Faible",
+        "severityMedium": "Moyenne",
+        "severityHigh": "Élevée"
+      },
+      "drawer": {
+        "title": "Actions correctives",
+        "addAction": "Ajouter une action",
+        "empty": "Aucune action corrective pour l'instant.",
+        "actionLabel": "Action",
+        "assignee": "Attributaire",
+        "due": "Date d'échéance",
+        "evidence": "Preuve",
+        "note": "Note",
+        "save": "Enregistrer",
+        "closeNc": "Clore la NC"
+      },
+      "validations": {
+        "required": "Champ obligatoire.",
+        "date": "Veuillez sélectionner une date valide."
+      },
+      "openNcButton": "Ouvrir une NC"
+    },
+    "settingsPage": {
+      "controlPoints": {
+        "title": "Points de contrôle",
+        "add": "Ajouter un point de contrôle",
+        "name": "Nom",
+        "type": "Type",
+        "min": "Minimum",
+        "max": "Maximum",
+        "frequency": "Fréquence (min)",
+        "actions": "Actions",
+        "typeCold": "Chambre froide",
+        "typeHot": "Maintien chaud",
+        "typeDelivery": "Réception",
+        "validationRange": "Le minimum doit être inférieur au maximum.",
+        "saveSuccess": "Point de contrôle enregistré.",
+        "saveError": "Enregistrement impossible.",
+        "deleteSuccess": "Point de contrôle supprimé.",
+        "deleteError": "Suppression impossible.",
+        "confirmDelete": "Supprimer ce point de contrôle ?",
+        "edit": "Modifier",
+        "delete": "Supprimer"
+      },
+      "alerts": {
+        "title": "Destinataires des alertes",
+        "email": "Notifications email",
+        "sms": "Notifications SMS"
+      }
+    }
+  },
+  "menus": {
+    "title": "Menus & Prévisionnel",
+    "subtitle": "Planifiez les menus hebdomadaires, anticipez la production et coordonnez les recettes.",
+    "tabs": {
+      "week": "Semaine",
+      "planner": "Planificateur",
+      "recipes": "Recettes",
+      "settings": "Paramètres"
+    },
+    "header": {
+      "introduction": "Gardez une longueur d'avance sur la demande en cuisine.",
+      "primaryCta": "Commencer la planification"
+    },
+    "week": {
+      "heading": "Vue hebdomadaire",
+      "description": "Configurez les rotations de menus, les effectifs et les notes de production pour la semaine à venir.",
+      "planCta": "Planifier cette semaine",
+      "summaryTitle": "Vue nutrition & éco-score de la semaine",
+      "loading": "Chargement des menus de la semaine...",
+      "loadingDescription": "Récupération des plats, informations nutritionnelles et notes de préparation pour la semaine sélectionnée.",
+      "error": {
+        "title": "Impossible de charger les menus hebdomadaires",
+        "description": "Nous n'avons pas pu récupérer les menus de cette semaine. Veuillez réessayer.",
+        "retry": "Réessayer"
+      },
+      "empty": {
+        "title": "Planification hebdomadaire en préparation",
+        "description": "Nous préparons l'espace pour programmer les services, assigner les recettes et suivre les prévisions.",
+        "action": "Créer une semaine"
+      },
+      "noResults": {
+        "title": "Aucun plat ne correspond aux filtres",
+        "description": "Ajustez la catégorie ou les allergènes pour afficher les plats planifiés."
+      },
+      "days": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+      }
+    },
+    "planner": {
+      "heading": "Planificateur de service",
+      "description": "Définissez les tâches de production, assignez les responsabilités et validez la préparation de service.",
+      "empty": {
+        "title": "Espace planificateur en cours",
+        "description": "Bientôt vous orchestrez les listes de préparation, les shifts et les variations de demande.",
+        "action": "Configurer le planificateur"
+      },
+      "actions": {
+        "title": "Actions du planificateur",
+        "duplicate": "Dupliquer le jour",
+        "applyTemplate": "Appliquer un template",
+        "export": "Exporter en PDF",
+        "dayLabel": "Sélectionner un jour",
+        "templateLabel": "Template",
+        "exportDescription": "Téléchargez les menus planifiés en PDF."
+      },
+      "dishLibrary": {
+        "title": "Bibliothèque de plats",
+        "description": "Glissez ou ajoutez des plats selon la disponibilité du stock.",
+        "highStock": "Stock élevé",
+        "lowStock": "Stock à surveiller",
+        "add": "Ajouter au repas",
+        "noMatches": "Aucun plat ne correspond aux filtres.",
+        "filters": {
+          "category": "Catégorie",
+          "allergens": "Allergènes à éviter"
+        }
+      },
+      "ingredients": {
+        "title": "Ingrédients requis",
+        "empty": "Aucun ingrédient pour l'instant. Ajoutez des plats pour voir la liste agrégée.",
+        "quantity": "Quantité",
+        "stock": "En stock",
+        "missing": "Manquant",
+        "expiresSoon": "Expire dans {days} jours"
+      },
+      "days": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+      }
+    },
+    "recipes": {
+      "heading": "Bibliothèque de recettes",
+      "description": "Centralisez les recettes signatures, leurs variantes et les informations nutritionnelles par menu.",
+      "empty": {
+        "title": "Catalogue de recettes à venir",
+        "description": "Importez vos plats signature, reliez les allergènes et associez les fiches techniques dans cet espace.",
+        "action": "Ajouter une recette"
+      }
+    },
+    "settings": {
+      "heading": "Paramètres du module",
+      "description": "Ajustez les presets de prévision, les calendriers de service et les contraintes d'approvisionnement.",
+      "empty": {
+        "title": "Paramètres en construction",
+        "description": "Définissez les modèles de service, les marges de production et les règles d'approvisionnement dès l'ouverture du module.",
+        "action": "Prévisualiser les paramètres"
+      }
+    },
+    "filters": {
+      "title": "Filtres",
+      "categoryLabel": "Catégorie",
+      "categoryAll": "Toutes les catégories",
+      "allergensLabel": "Allergènes",
+      "allergensHint": "Masquez les plats contenant les allergènes sélectionnés.",
+      "reset": "Réinitialiser",
+      "apply": "Appliquer",
+      "options": {
+        "seasonal": "Rotation saisonnière",
+        "plantBased": "Focus végétal",
+        "comfort": "Classiques réconfort",
+        "kids": "Adapté aux enfants"
+      }
+    },
+    "badges": {
+      "ariaPrefix": "Badge alimentaire",
+      "labels": {
+        "vegan": "Végétalien",
+        "vegetarian": "Végétarien",
+        "glutenFree": "Sans gluten",
+        "spicy": "Épicé",
+        "nut": "Contient des fruits à coque",
+        "lactoseFree": "Sans lactose"
+      }
+    },
+    "meals": {
+      "labels": {
+        "breakfast": "Petit-déjeuner",
+        "lunch": "Déjeuner",
+        "dinner": "Dîner",
+        "snack": "Collation"
+      },
+      "empty": "Aucun plat prévu pour le moment.",
+      "dragHint": "Glissez les plats ici pour planifier le service.",
+      "addDish": "Ajouter un plat"
+    },
+    "dayCard": {
+      "guests": "convives",
+      "emptyMeal": "Aucun plat prévu pour le moment."
+    },
+    "nutriEco": {
+      "title": "Nutrition & éco-score",
+      "calories": "Calories",
+      "protein": "Protéines",
+      "carbs": "Glucides",
+      "fat": "Lipides",
+      "ecoScore": "Éco-score",
+      "perServing": "par portion"
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "haccp": {
+    "title": "HACCP",
+    "subtitle": "Monitor compliance, incidents, and documentation.",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "logs": "Logs",
+      "nc": "Non-conformities",
+      "settings": "Settings"
+    },
+    "dashboardHeading": "HACCP dashboard",
+    "logsHeading": "Logs",
+    "ncHeading": "Non-conformities",
+    "settingsHeading": "Settings",
+    "emptyState": "Content coming soon.",
+    "kpis": {
+      "compliance": "Compliance",
+      "openNc": "Open NC",
+      "openNcDescription": "Open action plans awaiting validation.",
+      "offlineSensors": "Offline sensors",
+      "offlineSensorsDescription": "Probes require maintenance or battery check."
+    },
+    "upcomingControls": {
+      "title": "Upcoming controls",
+      "point": "Control point",
+      "threshold": "Threshold",
+      "due": "Due",
+      "action": "Measure"
+    },
+    "alerts": {
+      "title": "Recent alerts",
+      "noAlerts": "No alerts in the last 24 hours.",
+      "nc": "Non-conformity",
+      "sensor": "Sensor deviation"
+    },
+    "measure": {
+      "title": "Record measurement",
+      "controlPoint": "Control point",
+      "value": "Value",
+      "note": "Note",
+      "photo": "Photo evidence",
+      "placeholderNote": "Add a note (optional)",
+      "statusOk": "Within thresholds",
+      "statusNc": "Outside thresholds",
+      "cancel": "Cancel",
+      "save": "Save",
+      "upload": "Attach a photo"
+    },
+    "logsPage": {
+      "filters": {
+        "title": "Filters",
+        "dateFrom": "From",
+        "dateTo": "To",
+        "controlPoint": "Control point",
+        "allPoints": "All control points",
+        "mode": "Mode",
+        "modeAll": "All modes",
+        "modeManual": "Manual",
+        "modeIot": "IoT",
+        "reset": "Reset"
+      },
+      "table": {
+        "point": "Control point",
+        "value": "Value",
+        "unit": "Unit",
+        "timestamp": "Timestamp",
+        "operator": "Operator",
+        "status": "Status",
+        "mode": "Mode",
+        "actions": "Actions",
+        "statusOk": "OK",
+        "statusNc": "NC"
+      },
+      "measureButton": "Measure"
+    },
+    "nc": {
+      "columns": {
+        "todo": "To do",
+        "inProgress": "In progress",
+        "review": "Review",
+        "closed": "Closed"
+      },
+      "card": {
+        "type": "Type",
+        "severity": "Severity",
+        "cause": "Root cause",
+        "due": "Due",
+        "assignee": "Owner",
+        "actionsCount": "{count} corrective actions"
+      },
+      "modal": {
+        "title": "Open non-conformity",
+        "point": "Control point",
+        "description": "Description",
+        "severity": "Severity",
+        "due": "Due date",
+        "assignee": "Owner",
+        "cancel": "Cancel",
+        "submit": "Create",
+        "severityLow": "Low",
+        "severityMedium": "Medium",
+        "severityHigh": "High"
+      },
+      "drawer": {
+        "title": "Corrective actions",
+        "addAction": "Add action",
+        "empty": "No corrective actions yet.",
+        "actionLabel": "Action",
+        "assignee": "Assignee",
+        "due": "Due date",
+        "evidence": "Evidence",
+        "note": "Note",
+        "save": "Save",
+        "closeNc": "Close NC"
+      },
+      "validations": {
+        "required": "This field is required.",
+        "date": "Please select a valid date."
+      },
+      "openNcButton": "Open NC"
+    },
+    "settingsPage": {
+      "controlPoints": {
+        "title": "Control points",
+        "add": "Add control point",
+        "name": "Name",
+        "type": "Type",
+        "min": "Minimum",
+        "max": "Maximum",
+        "frequency": "Frequency (min)",
+        "actions": "Actions",
+        "typeCold": "Cold room",
+        "typeHot": "Hot holding",
+        "typeDelivery": "Delivery",
+        "validationRange": "Minimum must be lower than maximum.",
+        "saveSuccess": "Control point saved successfully.",
+        "saveError": "Unable to save control point.",
+        "deleteSuccess": "Control point deleted.",
+        "deleteError": "Unable to delete control point.",
+        "confirmDelete": "Delete this control point?",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "alerts": {
+        "title": "Alert recipients",
+        "email": "Email notifications",
+        "sms": "SMS notifications"
+      }
+    }
+  },
+  "menus": {
+    "title": "Menus & Forecasting",
+    "subtitle": "Plan weekly menus, forecast production, and coordinate recipes.",
+    "tabs": {
+      "week": "Week",
+      "planner": "Planner",
+      "recipes": "Recipes",
+      "settings": "Settings"
+    },
+    "header": {
+      "introduction": "Stay ahead of service demand with proactive planning.",
+      "primaryCta": "Start planning"
+    },
+    "week": {
+      "heading": "Week overview",
+      "description": "Configure menu rotations, guest counts, and production notes for the upcoming week.",
+      "planCta": "Plan this week",
+      "summaryTitle": "Weekly nutrition overview",
+      "loading": "Loading weekly menus...",
+      "loadingDescription": "Fetching dishes, nutrition, and prep notes for the selected week.",
+      "error": {
+        "title": "Unable to load weekly menus",
+        "description": "We couldn't fetch the menus for this week. Please try again.",
+        "retry": "Retry"
+      },
+      "empty": {
+        "title": "Weekly planning coming soon",
+        "description": "We are preparing the workspace to schedule services, assign recipes, and monitor forecasts.",
+        "action": "Create a weekly plan"
+      },
+      "noResults": {
+        "title": "No dishes match your filters",
+        "description": "Adjust the category or allergen filters to see planned dishes."
+      },
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    },
+    "planner": {
+      "heading": "Service planner",
+      "description": "Outline production tasks, assign responsibilities, and confirm service readiness.",
+      "empty": {
+        "title": "Planner workspace in progress",
+        "description": "Soon you will orchestrate prep lists, assign shifts, and anticipate demand variations.",
+        "action": "Configure planner"
+      },
+      "actions": {
+        "title": "Planner actions",
+        "duplicate": "Duplicate day",
+        "applyTemplate": "Apply template",
+        "export": "Export PDF",
+        "dayLabel": "Select day",
+        "templateLabel": "Template",
+        "exportDescription": "Download the planned menus as a PDF."
+      },
+      "dishLibrary": {
+        "title": "Dish library",
+        "description": "Drag or add dishes based on inventory availability.",
+        "highStock": "High stock",
+        "lowStock": "Watch stock",
+        "add": "Add to meal",
+        "noMatches": "No dishes match the filters.",
+        "filters": {
+          "category": "Category",
+          "allergens": "Avoid allergens"
+        }
+      },
+      "ingredients": {
+        "title": "Required ingredients",
+        "empty": "No ingredients yet. Add dishes to see the aggregated list.",
+        "quantity": "Quantity",
+        "stock": "In stock",
+        "missing": "Missing",
+        "expiresSoon": "Expires in {days} days"
+      },
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    },
+    "recipes": {
+      "heading": "Recipe library",
+      "description": "Centralize hero recipes, versions, and nutritional insights for each menu.",
+      "empty": {
+        "title": "Recipe catalog coming soon",
+        "description": "Import signature dishes, connect allergens, and link production sheets in this space.",
+        "action": "Add a recipe"
+      }
+    },
+    "settings": {
+      "heading": "Module settings",
+      "description": "Fine-tune forecasting presets, service calendars, and sourcing constraints.",
+      "empty": {
+        "title": "Settings under construction",
+        "description": "Define service templates, production buffers, and sourcing rules once the module unlocks.",
+        "action": "Preview settings"
+      }
+    },
+    "filters": {
+      "title": "Filters",
+      "categoryLabel": "Category",
+      "categoryAll": "All categories",
+      "allergensLabel": "Allergens",
+      "allergensHint": "Filter out dishes that contain the selected allergens.",
+      "reset": "Clear",
+      "apply": "Apply",
+      "options": {
+        "seasonal": "Seasonal rotation",
+        "plantBased": "Plant-based focus",
+        "comfort": "Comfort classics",
+        "kids": "Kids friendly"
+      }
+    },
+    "badges": {
+      "ariaPrefix": "Dietary badge",
+      "labels": {
+        "vegan": "Vegan",
+        "vegetarian": "Vegetarian",
+        "glutenFree": "Gluten-free",
+        "spicy": "Spicy",
+        "nut": "Contains nuts",
+        "lactoseFree": "Lactose-free"
+      }
+    },
+    "meals": {
+      "labels": {
+        "breakfast": "Breakfast",
+        "lunch": "Lunch",
+        "dinner": "Dinner",
+        "snack": "Snack"
+      },
+      "empty": "No dishes planned yet.",
+      "dragHint": "Drag dishes here to plan the service.",
+      "addDish": "Add dish"
+    },
+    "dayCard": {
+      "guests": "guests",
+      "emptyMeal": "No dishes planned yet."
+    },
+    "nutriEco": {
+      "title": "Nutrition and eco-score",
+      "calories": "Calories",
+      "protein": "Protein",
+      "carbs": "Carbohydrates",
+      "fat": "Fat",
+      "ecoScore": "Eco-score",
+      "perServing": "per serving"
+    }
+  }
+}

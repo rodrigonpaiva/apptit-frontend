@@ -2,6 +2,7 @@
 
 import { ProductCard, type ProductCardProps } from "./product-card";
 import { cn } from "@/src/lib/cn";
+import { useScopedI18n } from "@/src/lib/useScopedI18n";
 
 export type ProductListGridProps = {
   products: ProductCardProps[];
@@ -10,6 +11,7 @@ export type ProductListGridProps = {
   emptyState?: React.ReactNode;
   loading?: boolean;
   skeletonCount?: number;
+  title?: string;
 };
 
 export function ProductListGrid({
@@ -19,11 +21,15 @@ export function ProductListGrid({
   emptyState,
   loading,
   skeletonCount = 6,
+  title,
 }: ProductListGridProps) {
+  const inventoryDict = useScopedI18n("inventory");
   // Grid responsiva 1/2/3/4 colunas
   return (
     <section className={cn(className)}>
-      <h2 className="text-lg font-semibold mb-3">Produtos</h2>
+      <h2 className="text-lg font-semibold mb-3">
+        {title ?? inventoryDict.resultsCaption}
+      </h2>
 
       {loading ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
@@ -47,7 +53,7 @@ export function ProductListGrid({
           <div className="card">
             <div className="card-content">
               <p className="text-sm">
-                Nenhum produto encontrado. Ajuste os filtros ou crie um novo item.
+                {inventoryDict.emptyStateDescription}
               </p>
             </div>
           </div>

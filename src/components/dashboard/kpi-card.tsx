@@ -38,19 +38,12 @@ export function KpiCard({
 }: KpiCardProps) {
   const positive = typeof deltaPct === "number" ? deltaPct > 0 : undefined;
   const negative = typeof deltaPct === "number" ? deltaPct < 0 : undefined;
-  const neutral  = typeof deltaPct === "number" ? deltaPct === 0 : undefined;
 
   const deltaColorClass = positive
     ? "text-[var(--color-success)]"
     : negative
     ? "text-[var(--color-error)]"
     : "text-[var(--color-info)]";
-
-  const deltaBgClass = positive
-    ? "bg-[color-mix(in_oklab,var(--color-success)_14%,transparent)]"
-    : negative
-    ? "bg-[color-mix(in_oklab,var(--color-error)_14%,transparent)]"
-    : "bg-[color-mix(in_oklab,var(--color-info)_14%,transparent)]";
 
   return (
     <div className={cn("card animate-scale-in", className)}>

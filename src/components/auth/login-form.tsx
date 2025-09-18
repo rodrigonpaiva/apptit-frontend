@@ -89,9 +89,9 @@ export function LoginForm() {
       </Button>
 
       <p className="text-center text-sm" style={{ color: "var(--text-secondary)" }}>
-         Vous n'avez pas encore de compte ?{" "}
+         Vous n&apos;avez pas encore de compte ?{" "}
         <a href="/register" className="font-medium hover:underline" style={{ color: "var(--color-apptit-blue)" }}>
-          Demander l'accès
+          Demander l&apos;accès
         </a>
       </p>
     </form>
