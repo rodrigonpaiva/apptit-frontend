@@ -71,6 +71,7 @@ $ npm run start
 
 ## 📂 Project structure
 
+```bash
 apptit-frontend/
 ├─ src/
 │  ├─ app/                 # Next.js App Router
@@ -84,6 +85,7 @@ apptit-frontend/
 ├─ public/                 # Static assets
 ├─ package.json
 └─ tailwind.config.ts
+```
 
 ## 🎨 Design System
 
